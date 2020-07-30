@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_heart.mk
+    $(LOCAL_DIR)/_heart.mk
+
+COMMON_LUNCH_CHOICES := \
+    _heart-user \
+    _heart-userdebug \
+    _heart-eng
